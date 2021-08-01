@@ -43,7 +43,7 @@ if flag == 0:
 else:
     print("Weak")
 
-# C問題
+# C問題 計算量が足りず
 # 問題なのは実行時間がやばすぎること
 input_line = input().split(" ")
 N = int(input_line[0])
@@ -64,5 +64,3 @@ for Ai in A:
             answer = tmp
 
 print(answer)
-
-# C回答例
